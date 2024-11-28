@@ -36,3 +36,4 @@ ENV/
 Thumbs.db
 
 *.env
+*.key
