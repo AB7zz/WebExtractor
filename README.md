@@ -1,4 +1,4 @@
-# Web Data Extractor
+# SpiderAI
 
 A Python library for extracting structured data from web pages using AI. This library uses Google's Gemini AI to intelligently extract and format data according to your specified schema.
 
@@ -12,7 +12,7 @@ A Python library for extracting structured data from web pages using AI. This li
 ## Installation
 
 ```bash
-pip install web_extractor
+pip install spiderai
 ```
 
 ## Quick Start
@@ -28,7 +28,7 @@ GEMINI_API_KEY=your_api_key_here
 3. Use the library in your code:
 
 ```python
-from web_extractor import WebDataExtractor
+from spiderai import WebDataExtractor
 import os
 from dotenv import load_dotenv
 
@@ -40,22 +40,22 @@ gemini_api_key = os.getenv("GEMINI_API_KEY")
 extractor = WebDataExtractor(api_key=gemini_api_key)
 
 # URL to extract data from
-url = "https://www.amazon.in/Celestron-AstroMaster-130-EQ-Telescope/dp/B000MLL6RS"
+url = "https://yoururl.com"
 
 # Define your schema
 schema = {
-    "name": "string",
-    "price": "float",
-    "description": "string"
+    "key1": "string",
+    "key2": "float",
+    "key3": "string"
 }
 
 # Extract the data
 result = extractor.extract(url, schema)
 
 # Use the extracted data
-print("Product Name:", result["name"])
-print("Price:", result["price"])
-print("Description:", result["description"])
+print("Product Name:", result["key1"])
+print("Price:", result["key2"])
+print("Description:", result["key3"])
 ```
 
 ## Schema Definition
@@ -64,7 +64,7 @@ The schema is a dictionary where:
 - Keys are the field names you want to extract
 - Values are the expected data types ("string", "float", "integer", etc.)
 
-Example schemas:
+Example schema:
 
 ```python
 # Product schema
@@ -81,3 +81,12 @@ schema = {
 - Python 3.10 or higher
 - Google Gemini AI API key
 - Internet connection for web scraping and AI processing
+
+
+## License
+
+This project is licensed under Apache 2.0. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Feel free to contribute to the project by opening issues or suggesting improvements. For any queries, you can reach me at abhinavcv007@gmail.com

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spiderai"
+version = "0.0.1"
+authors = [
+  { name="Abhinav C V", email="abhinavcv007@gmail.com" },
+]
+description = "A Python library for extracting structured data from web pages using AI."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "annotated-types==0.7.0",
+    "beautifulsoup4==4.12.3",
+    "cachetools==5.5.0",
+    "google-ai-generativelanguage==0.6.10",
+    "google-api-core==2.23.0",
+    "google-api-python-client==2.154.0",
+    "google-auth==2.36.0",
+    "google-auth-httplib2==0.2.0",
+    "google-generativeai==0.8.3",
+    "pydantic==2.10.2",
+    "python-dotenv==1.0.1",
+    "requests==2.32.3",
+    "tqdm==4.67.1",
+    "absl-py==2.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/AB7zz/web_extractor"
+Issues = "https://github.com/AB7zz/web_extractor/issues"

@@ -1,8 +1,12 @@
+absl-py==2.1.0
 annotated-types==0.7.0
+backports.tarfile==1.2.0
 beautifulsoup4==4.12.3
+build==1.2.2.post1
 cachetools==5.5.0
 certifi==2024.8.30
 charset-normalizer==3.4.0
+docutils==0.21.2
 google-ai-generativelanguage==0.6.10
 google-api-core==2.23.0
 google-api-python-client==2.154.0
@@ -14,20 +18,38 @@ grpcio==1.68.0
 grpcio-status==1.62.3
 httplib2==0.22.0
 idna==3.10
+importlib_metadata==8.5.0
+jaraco.classes==3.4.0
+jaraco.context==6.0.1
+jaraco.functools==4.1.0
+keyring==25.5.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+more-itertools==10.5.0
+nh3==0.2.18
+packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_81ri4yfpjw/croot/packaging_1720101866878/work
+pkginfo==1.10.0
 proto-plus==1.25.0
 protobuf==4.25.5
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pydantic==2.10.2
 pydantic_core==2.27.1
+Pygments==2.18.0
 pyparsing==3.2.0
+pyproject_hooks @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f43jw13ggf/croot/pyproject_hooks_1679584440474/work
 python-dotenv==1.0.1
+readme_renderer==44.0
 requests==2.32.3
+requests-toolbelt==1.0.0
+rfc3986==2.0.0
+rich==13.9.4
 rsa==4.9
 soupsieve==2.6
+tomli @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d0e5ffbf-5cf1-45be-8693-c5dff8108a2awhthtjlq/croots/recipe/tomli_1657175508477/work
 tqdm==4.67.1
+twine==5.1.1
 typing_extensions==4.12.2
 uritemplate==4.1.1
 urllib3==2.2.3
-## !! Could not determine repository location
--e /Applications/Developer/web_extractor/src
+zipp==3.21.0

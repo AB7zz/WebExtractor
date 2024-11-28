@@ -1,4 +1,4 @@
-from web_extractor import WebDataExtractor
+from spiderai import WebDataExtractor
 import os
 from dotenv import load_dotenv
 

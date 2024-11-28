@@ -1,6 +1,7 @@
 import os
 import google.generativeai as genai
 import json
+from absl import logging
 
 def process_with_ai(text_content, schema, api_key):
     """Process text content using Gemini AI to extract structured data."""
