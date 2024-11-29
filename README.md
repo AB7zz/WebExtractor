@@ -4,10 +4,10 @@ A Python library for extracting structured data from web pages using AI. This li
 
 ## Features
 
-- Easy-to-use interface for web data extraction
 - AI-powered content analysis using Google's Gemini AI
 - Flexible schema definition for structured data extraction
 - Automatic handling of web page fetching and parsing
+- Supports both single objects and arrays of objects
 
 ## Installation
 
@@ -62,7 +62,7 @@ print("Description:", result["key3"])
 
 The schema is a dictionary where:
 - Keys are the field names you want to extract
-- Values are the expected data types ("string", "float", "integer", etc.)
+- Values are the expected data types ("string", "float", "integer", "boolean", "number", None)
 
 Example schema:
 
@@ -74,6 +74,14 @@ schema = {
     "rating": "float",
     "review_count": "integer"
 }
+
+# Array of objects
+schema = [
+    {
+        "name": "string",
+        "price": "float"
+    }
+]
 ```
 
 ## Requirements

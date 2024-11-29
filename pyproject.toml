@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "spiderai"
-version = "0.0.3"
+version = "0.1.0"
 authors = [
   { name="Abhinav C V", email="abhinavcv007@gmail.com" },
 ]
